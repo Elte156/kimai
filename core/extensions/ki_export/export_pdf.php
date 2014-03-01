@@ -222,7 +222,7 @@ $pdf->WriteHtml('<h1>' . $pdf_title . '</h1>');
 $pdf->ln();
 
 $pdf->WriteHtml('<b>'.$kga['lang']['export_extension']['time_period'].':</b> '.
-strftime($kga['date_format']['2'],$in).' - '.strftime($kga['date_format']['2'],$out) );
+strftime($kga['date_format'][2],$in).' - '.strftime($kga['date_format'][2],$out) );
 
 if (isset($pdf_filter)) {
   $pdf->ln();
